@@ -86,7 +86,7 @@ header a:hover {
   display: inline-block;
 }
 .hero h2 {
-  font-size: 4em;
+  font-size: clamp(2.2rem, 6vw + 1rem, 4rem);
   font-family: "Bungee", sans-serif;
   margin-bottom: 20px;
 }
@@ -118,7 +118,7 @@ header a:hover {
   text-align: center;
 }
 h3 {
-  font-size: 3em;
+  font-size: clamp(1.8rem, 4.5vw + 0.8rem, 3.2rem);
   font-family: "Young", sans-serif;
   margin-bottom: 26px;
 }
@@ -144,7 +144,7 @@ h3 {
   font-size: 0.8em;
 }
 .box h4 {
-  font-size: 1.9em;
+  font-size: clamp(1.6rem, 3.8vw + 0.6rem, 2.4rem);
 }
 .box p,
 h4 {
@@ -174,10 +174,9 @@ h4 {
 }
 .cta {
   background-color: rgb(11, 18, 21);
-  padding: 3em;
 }
 .cta form#msg-form {
-  padding: 2em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -214,7 +213,6 @@ button[type="submit"]:focus-within {
   text-align: center;
   margin-top: 30px;
   background: rgba(255, 255, 255, 0.4);
-  padding: 2em;
   border-radius: 10px;
 }
 .cta form#news-form button[type="submit"] {
