@@ -12,121 +12,161 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>GI</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#techstack">Stack</a></li>
-            <li><a href="#projects">Projects</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section class="hero">
-          <div class="dynamic">
-            <h2>
-              Hello there, <br />I'm Goodness Itodo. <br />
-              Web Developer. <br />
-              Product Designer.
-            </h2>
-          </div>
-          <p>
-            I build scalable websites and products that meets your expectations.
-          </p>
+    <header>
+      <h1>GI</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#techstack">Stack</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <p class="info">Creatively Led.</p>
+        <div class="dynamic">
+          <h2>Hello, I'm Goodness Itodo.</h2>
+          <h2>Web Developer.</h2>
+          <h2>Product Designer.</h2>
+        </div>
+        <p>
+          I build scalable websites and products that meets your expectations.
+        </p>
+        <p>
           <a href="#">Hire Me?</a>
-        </section>
-
-        <section class="skills" id="techstack">
-          <h3>TechStack</h3>
+          <a href="#">Read My Articles</a>
+        </p>
+      </section>
+      <section class="skills" id="techstack">
+        <h3>TechStack</h3>
+        <div class="columns">
+          <div class="card">
+            <p>HTML</p>
+            <meter
+              value="81"
+              low="30"
+              high="50"
+              optimum="80"
+              min="0"
+              max="100"
+              style="width: 300px; height: 100px; padding: 1px"
+            ></meter>
+          </div>
+          <div class="card">
+            <p>CSS</p>
+            <meter
+              value="61"
+              low="30"
+              high="50"
+              optimum="80"
+              min="0"
+              max="100"
+              style="width: 300px; height: 100px; padding: 1px"
+            ></meter>
+          </div>
+          <div class="card">
+            <p>JavaScript</p>
+            <meter
+              value="31"
+              low="30"
+              high="50"
+              optimum="80"
+              min="0"
+              max="100"
+              style="width: 300px; height: 100px; padding: 1px"
+            ></meter>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h3>My Projects</h3>
+        <div class="wrapper">
           <div class="columns">
             <div class="card">
-              <p>HTML</p>
-              <meter
-                value="81"
-                low="30"
-                high="50"
-                optimum="80"
-                min="0"
-                max="100"
-                style="width: 300px; height: 100px; padding: 1px"
-              ></meter>
+              <img src="./assets/images/projects/blogpreview.jpg" alt="" />
+              <div class="box">
+                <h4>Blog Preview Card</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sequi, saepe?
+                </p>
+                <a href="#">LIVE DEMO</a>
+                <a href="#">VIEW CODE</a>
+              </div>
             </div>
             <div class="card">
-              <p>CSS</p>
-              <meter
-                value="61"
-                low="30"
-                high="50"
-                optimum="80"
-                min="0"
-                max="100"
-                style="width: 300px; height: 100px; padding: 1px"
-              ></meter>
+              <img
+                src="./assets/images/projects/socialinkspreview.jpg"
+                alt=""
+              />
+              <div class="box">
+                <h4>Social Links Card</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sequi, saepe?
+                </p>
+                <a href="#">LIVE DEMO</a>
+                <a href="#">VIEW CODE</a>
+              </div>
             </div>
             <div class="card">
-              <p>JavaScript</p>
-              <meter
-                value="31"
-                low="30"
-                high="50"
-                optimum="80"
-                min="0"
-                max="100"
-                style="width: 300px; height: 100px; padding: 1px"
-              ></meter>
+              <img src="./assets/images/projects/cardpreview.jpg" alt="" />
+              <div class="box">
+                <h4>QR Code Card</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sequi, saepe?
+                </p>
+                <a href="#">LIVE DEMO</a>
+                <a href="#">VIEW CODE</a>
+              </div>
             </div>
           </div>
-        </section>
-        <section class="projects" id="projects">
-          <h3>My Projects</h3>
-          <div class="columns">
-            <figure>
-              <div class="card">
-                <img
-                  src="./assets/images/projects/blogpreview.jpg"
-                  alt="blog preview project"
-                />
-              </div>
-              <figcaption>
-                <p><a href="#">link</a></p>
-              </figcaption>
-            </figure>
-            <figure>
-              <div class="card">
-                <img
-                  src="./assets/images/projects/socialinkspreview.jpg"
-                  alt="social links project"
-                />
-              </div>
-              <figcaption>
-                <p><a href="#">link</a></p>
-              </figcaption>
-            </figure>
-            <figure>
-              <div class="card">
-                <img
-                  src="./assets/images/projects/cardpreview.jpg"
-                  alt="card preview project"
-                />
-              </div>
-              <figcaption>
-                <p><a href="#">link</a></p>
-              </figcaption>
-            </figure>
+        </div>
+      </section>
+      <section class="cta" id="contact">
+        <div class="column">
+          <div class="contact-box">
+            <nav role="secondary-navigation">
+              <ul>
+                <li>
+                  <a href="#">X</a>
+                </li>
+                <li>
+                  <a href="#">LinkedIN</a>
+                </li>
+                <li>
+                  <a href="#">Instagram</a>
+                </li>
+                <li>
+                  <a href="#">Facebook</a>
+                </li>
+                <li>
+                  <a href="#">Reddit</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-        </section>
-        <section class="cta">
-          <form action="#">
-            <textarea name="message" id="message"></textarea>
+          <form action="#" id="msg-form">
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
             <button type="submit">SEND</button>
           </form>
-        </section>
-      </main>
-      <footer>
-        <p>&copy; GOODNESS ITODO(thecodingmob) 2026</p>
-      </footer>
-    </div>
+        </div>
+        <form action="#" id="news-form">
+          <h4>Sign Up for my Weekly Releases</h4>
+          <input type="email" name="email" id="email" />
+          <button type="submit">Sign Up</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; GOODNESS ITODO(thecodingmob) 2026</p>
+    </footer>
   </body>
 </html>
