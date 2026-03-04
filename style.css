@@ -1,12 +1,14 @@
 @font-face {
+  font-family: "Bungee";
+  src: url("./assets/fonts/Bungee-Regular.ttf");
+}
+@font-face {
   font-family: "Outfit";
   src: url("./assets/fonts/Outfit-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "Young";
   src: url("./assets/fonts/YoungSerif-Regular.ttf");
-}
-:root {
 }
 *,
 *::before,
@@ -45,6 +47,9 @@ header {
 
   @media (max-width: 50em) {
     width: 100%;
+    margin: 0;
+    border: none;
+    border-radius: 0;
   }
 }
 header h1 {
@@ -82,7 +87,7 @@ header a:hover {
 }
 .hero h2 {
   font-size: 4em;
-  font-family: "Young", sans-serif;
+  font-family: "Bungee", sans-serif;
   margin-bottom: 20px;
 }
 .hero h2:nth-child(1),
