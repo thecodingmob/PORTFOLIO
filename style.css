@@ -46,6 +46,10 @@ header {
   margin: 2em auto;
   width: 50%;
   border-radius: 39px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header h1 {
@@ -142,9 +146,17 @@ h3 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2em;
 }
-.card {
+.scard {
   background-color: rgb(11, 18, 21);
   border-radius: 8px;
+  padding: 2em 1em 2em 1em;
+}
+.scard img {
+  width: 20%;
+}
+.card {
+  background-color: rgb(11, 18, 21);
+  border-radius: 12px;
 }
 .card img {
   border-radius: 12px 12px 0 0;
@@ -287,6 +299,7 @@ footer {
     flex-direction: column;
     margin: 0;
     background: none;
+    position: unset;
   }
   header li {
     margin: 0;
