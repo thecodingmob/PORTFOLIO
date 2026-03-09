@@ -34,21 +34,30 @@
           I build scalable websites and products that meets your expectations.
         </p>
         <p>
-          <a href="#">Hire Me?</a>
-          <a href="#">Read My Articles</a>
+          <a
+            href="https://wa.me/2349169370962?text=Hello%20I%27m%20interested"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Hire Me?</a
+          >
+          <a href="./blog.html">Read My Articles</a>
         </p>
       </section>
       <section class="skills" id="techstack">
         <h3>TechStack</h3>
         <div class="columns">
           <div class="scard">
-            <img src="./assets/images/html.png" alt="html logo" />
+            <img
+              src="./assets/images/html.png"
+              alt="html logo"
+              loading="lazy"
+            />
           </div>
           <div class="scard">
-            <img src="./assets/images/css.webp" alt="css logo" />
+            <img src="./assets/images/css.webp" alt="css logo" loading="lazy" />
           </div>
           <div class="scard">
-            <img src="./assets/images/js.webp" alt="js logo" />
+            <img src="./assets/images/js.webp" alt="js logo" loading="lazy" />
           </div>
         </div>
       </section>
@@ -63,8 +72,10 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
                 saepe?
               </p>
-              <a href="blogpreviewcardby-goody.vercel.app">LIVE DEMO</a>
-              <a href="https://github.com/thecodingmob/">VIEW CODE</a>
+              <a href="https://blogpreviewcardby-goody.vercel.app">LIVE DEMO</a>
+              <a href="https://github.com/thecodingmob/BLOG_PREVIEW_CARD"
+                >VIEW CODE</a
+              >
             </div>
           </div>
           <div class="card">
@@ -75,8 +86,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
                 saepe?
               </p>
-              <a href="#">LIVE DEMO</a>
-              <a href="#">VIEW CODE</a>
+              <a href="https://social-links-componentby-goody.vercel.app"
+                >LIVE DEMO</a
+              >
+              <a href="https://github.com/thecodingmob/SOCIAL_LINKS_COMPONENT"
+                >VIEW CODE</a
+              >
             </div>
           </div>
           <div class="card">
@@ -87,21 +102,23 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
                 saepe?
               </p>
-              <a href="#">LIVE DEMO</a>
-              <a href="#">VIEW CODE</a>
+              <a href="https://qr-code-component-by-goody.vercel.app"
+                >LIVE DEMO</a
+              >
+              <a href="https://github.com/thecodingmob/QR_CODE_COMPONENT"
+                >VIEW CODE</a
+              >
             </div>
           </div>
           <div class="card">
-            <img src="./assets/images/projects/cardpreview.jpg" alt="" />
-            <div class="box">
-              <h4>QR Code Card</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                saepe?
-              </p>
-              <a href="#">LIVE DEMO</a>
-              <a href="#">VIEW CODE</a>
-            </div>
+            <a
+              href="./projects.html"
+              style="text-decoration: none; color: white"
+            >
+              <h4 style="font-size: 3em; padding: 2em">
+                MORE &LongRightArrow;
+              </h4></a
+            >
           </div>
         </div>
       </section>
@@ -115,16 +132,19 @@
                   <a href="https://x.com/thecodingmob">X</a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/">LinkedIN</a>
+                  <a href="mailto:itodogoodness01@gmail.com">Email Me</a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/goodness-itodo"
+                    >LinkedIN</a
+                  >
                 </li>
                 <li>
-                  <a href="https://instagram.com/thecodingmob">Instagram</a>
+                  <a href="https://www.instagram.com/thecodingmob">Instagram</a>
                 </li>
                 <li>
-                  <a href="https://facebook.com/">Facebook</a>
-                </li>
-                <li>
-                  <a href="https://reddit.com/">Reddit</a>
+                  <a href="https://github.com/thecodingmob">Github</a>
                 </li>
               </ul>
             </nav>
@@ -136,7 +156,14 @@
               cols="40"
               rows="16"
             ></textarea>
-            <button type="submit">SEND</button>
+            <button
+              href="#"
+              id="whatsappLink"
+              target="_blank"
+              onclick="generateWhatsAppLink()"
+            >
+              SEND
+            </button>
           </form>
         </div>
         <form action="#" id="news-form">
@@ -149,5 +176,6 @@
     <footer>
       <small>&copy; GOODNESS ITODO(thecodingmob) 2026</small>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
