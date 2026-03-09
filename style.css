@@ -291,6 +291,9 @@ footer {
   header li {
     margin: 0;
   }
+  .hero .info {
+    display: none;
+  }
   .columns {
     grid-template-columns: 1fr;
   }
